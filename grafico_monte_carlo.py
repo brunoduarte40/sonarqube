@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Carregar dados históricos de surgimento de erros
-file_path = "https://github.com/brunoduarte40/sonarqube/blob/main/dados_consulta.xlsx"  # Caminho do arquivos
+file_path = "https://docs.google.com/spreadsheets/d/1rSvfzvLmlohLqMc0QFihMaEpMjzR5OO8/edit?usp=drive_link&ouid=102237909971271443211&rtpof=true&sd=true"  # Caminho do arquivos
 df = pd.read_excel(file_path, sheet_name="Resultado da consulta")
 
 # Converter coluna de datas
